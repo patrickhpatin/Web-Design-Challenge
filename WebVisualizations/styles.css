@@ -12,7 +12,6 @@ section {
   box-shadow: 3px 3px 2px lightgrey;
   padding: 10px;
   border-radius: 5px;
-  /* font-family: "Work Sans"; */
   font-size: 1.5em;
   margin-top: 10px;
 }
@@ -66,7 +65,7 @@ h2#page-title {
   color: white;
 }
 .info-container {
-  text-align: justify;
+  text-align: left;
   text-justify: inter-word;
 }
 .info-container img {
