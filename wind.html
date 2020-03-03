@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+    <title>Web Visualizations-Cloudiness</title>
+  </head>
+  <body>
+    <!-- NAVBAR CONTAINER -->
+    <nav class="navbar sticky-top navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">HOME</a>
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Plots</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="temp.html">Lat v. Temp</a>
+              <a class="dropdown-item" href="humidity.html">Lat v. Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Lat v. Cloudiness</a>
+              <a class="dropdown-item" href="#">Lat v. Wind Speed</a>
+          <li class="nav-item">
+            <a class="nav-link" href="comparisons.html">Comparisons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+	</div></li></ul>
+    </nav>
+    <!-- Base Container -->
+    <section>
+      <div class="container">
+        <h2>Latitude v. Wind Speed</h2><hr>
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="paper info-container">
+              <img src="Resources/assets/images/Fig4.png" alt="Lat v. Wind Speed" />
+              <p>
+                We are plotting each city's latitude, or proximity to the equator (which is latitude 0),
+				against the forecasted wind speed (mph) today (or the date of the data pull). Maybe it
+				appears to get a little windier as the cities get closer to the equator.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="paper">
+              <a href="temp.html">
+                <div class="box">
+                  <div class="box-content">
+                    <p>Lat v. Temperature</p>
+                  </div>
+                  <img src="Resources/assets/images/Fig1.png" width=150px alt="Lat v. Temperature" />
+                </div>
+              </a>
+              <a href="humidity.html">
+                <div class="box">
+                  <div class="box-content">
+                    <p>Lat v. Humidity</p>
+                  </div>
+				  <img src="Resources/assets/images/Fig2.png" width=150px alt="Lat v. Humidity" />
+                </div>
+              </a>
+              <a href="cloudiness.html">
+                <div class="box active">
+                  <div class="box-content">
+                    <p>Lat v. Cloudiness</p>
+                  </div>
+				  <img src="Resources/assets/images/Fig3.png" width=150px alt="Lat v. Cloudiness" />
+                </div>
+              </a>
+              <a href="#">
+                <div class="box">
+                  <div class="box-content">
+                    <p>Lat v. Wind Speed</p>
+                  </div>
+				  <img src="Resources/assets/images/Fig4.png" width=150px alt="Lat v. Wind Speed" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
