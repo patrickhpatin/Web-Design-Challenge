@@ -1,5 +1,10 @@
+.nav-background {
+  background-color: beige;
+}
+
 body {
   background-color:	aliceblue;
+  color: darkslategrey;
 }
 section {
   margin-top: 10px;
@@ -58,7 +63,7 @@ h2#page-title {
   width: 100%;
   background-color: yellow;
   padding: 5px;
-  color: black;
+  color: slategrey;
 }
 .box.active p {
   background-color: darkblue;
